@@ -1,0 +1,288 @@
+/*************header.jsp*************/
+
+#header{
+    height: 75px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+#logo{
+    width: 100%;
+    bottom: 0px;
+    padding: 20px;
+    position: absolute;
+    padding-bottom: 0px;
+}
+
+#header h1{
+    color: #1a507d
+}
+
+#header h1:hover{
+    color: #e859df;
+}
+
+#nav{
+    width: 100%;    
+}
+
+#nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #003399; 
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav li a:hover{
+    background-color: #0033cc;
+}
+
+#nav li.right{
+    float: right;
+}
+
+/*************index.jsp*************/
+
+#main{
+    margin: 0px;
+    background-image: URL(Images/smart.jpg);
+}
+
+/*************login.jsp*************/
+
+#main_view{
+    margin: 0px;
+}
+
+#box_log{
+    margin: auto;
+    width: 350px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #fbfcfb;
+}
+
+#lab_log{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "New Century Schoolbook", serif;
+}
+
+.td_alpha{
+    width: 35%;
+}
+
+.td_bravo{
+    width: 65%;
+}
+
+.lab{
+    font-size: 18px;    
+    font-family: "New Century Schoolbook", serif;
+}
+
+input[class=log]{
+    width: 100%;
+    margin: 2px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[class=log]:focus{
+    border: 1px solid #FFE4E1;
+}
+
+.button_log{
+    width: 49%;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    border-radius: 5px;    
+    text-decoration: none;    
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px 0px;
+    background-color: #008CBA;
+}
+
+#msg{
+    color: red;    
+    font-weight: bold;
+    text-align: center;
+}
+
+/*************viewParking.jsp*************/
+
+#left_view{
+    left: 30px;
+    width: 625px;
+    padding: 25px;
+    margin-top: 50px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #B0E0E6;
+}
+
+#right_view{
+    right: 30px;
+    width: 625px;
+    padding: 25px;
+    margin-top: 50px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #B0E0E6;
+}
+
+.lab_view{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.para{
+    text-align: justify;
+    border: 1px solid red;
+    top: 0px;
+}
+
+.button_view{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;    
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #008CBA;
+}
+
+/*************searchParking.jsp*************/
+
+#serch_box{
+    right: 25px;
+    width: 300px;    
+    padding: 25px;
+    margin-top: 50px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #B0E0E6;
+}
+
+.lab_srch{
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+input[class=srch]{
+    width: 100%;
+    margin: 2px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#button_srch{    
+    width: 70%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;    
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #008CBA;
+}
+
+#box_serch{
+    left: 25px;
+    width: 600px;    
+    padding: 22px;
+    margin-top: 50px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #B0E0E6;
+}
+
+/*************viewDetail.jsp*************/
+.main_view{
+    border: 1px solid red;
+    margin-top: 50px; float: left;
+}
+
+.parking{
+    display: inline-block;
+    width: 550px;
+    float: left; margin: 0px;
+}
+
+.tag{
+    display: inline-block;
+    float: left; margin: 0px;
+    width: 110px; text-align: center;
+    border: 2px dotted white;
+    background-color: #00cccc;
+}
+
+.carBox{
+    display: inline-block;
+    float: left; margin: 0px;
+    width: 110px; height: 150px;
+    border: 2px dotted aqua; 
+    border-bottom: none; border-top: none;
+}
+
+.image{
+    width: 106px;
+    height: 150px;    
+}
+
+.side{
+    display: inline-block;
+    background-color: #666666;
+    width: 75px; height: 427px; 
+    border-left: 1px dotted white;      
+    float: left; margin-left: 0px;
+}
+
+.road{
+    display: inline-block;
+    float: left; margin: 0px;
+    background-color: #666666;
+    width: 550px; height: 75px;    
+    border-left: 2px dotted white;
+}
+
+.anchor{
+    display: inline-block;
+    float: left; margin: 0px;
+    width: 110px; height: 150px;
+    border: 2px dotted aqua; 
+    border-bottom: none; border-top: none;    
+}

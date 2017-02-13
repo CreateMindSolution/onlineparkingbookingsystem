@@ -1,0 +1,23 @@
+SMAP
+userRegistration_jsp.java
+JSP
+*S JSP
+*F
++ 0 userRegistration.jsp
+userRegistration.jsp
+*L
+5,44:46
+48,71:90
+119,2:162
+120,2:164
+122:166,3
+123:169
+124:170,3
+125,19:173
+144,2:193
+145,2:195
+147:197,3
+148:200
+149:201,3
+150,62:204
+*E
